@@ -30,7 +30,7 @@
 
     $ sudo pkg install redis
 
-Подтвердите установку, введя `y` при появлении запроса и нажмите клавишу :key_enter:.
+Подтвердите установку, для этого при появлении запроса введите `y`  и нажмите клавишу :key_enter:.
 
 ![Установка Redis®](https://raw.githubusercontent.com/dev-zhandos/devops-notes/main/img/2.jpg)
 
