@@ -16,9 +16,10 @@
 ### Шаг 1: Обновление системы
 
 Прежде чем устанавливать Redis®, обновите пакеты системы. Выполните следующие команды:
+
     $ sudo pkg update
     $ sudo pkg upgrade
-```
+
 ![Обновление пакетов системы](img/1.jpg "Обновление пакетов системы1")
 Эти команды обновят список пакетов и установят последние версии всех пакетов.
 
@@ -26,9 +27,7 @@
 
 Для установки Redis® используйте команду:
 
-```sh
-$ sudo pkg install redis
-```
+    $ sudo pkg install redis
 
 Подтвердите установку, введя `y` при появлении запроса и нажмите клавишу :key_enter:.
 
@@ -40,9 +39,7 @@ $ sudo pkg install redis
 
 1. Откройте файл конфигурации Redis®:
 
-    ```sh
     $ sudo vi /usr/local/etc/redis.conf
-    ```
 
 2. Найдите и измените следующие параметры по мере необходимости:
 
@@ -55,24 +52,21 @@ $ sudo pkg install redis
 
 Для запуска Redis® используйте команду:
 
-```sh
-$ sudo service redis start
-```
+    $ sudo service redis start
+
 
 Чтобы настроить Redis® на автоматический запуск при загрузке системы, выполните:
 
-```sh
-$ sudo sysrc redis_enable=yes
-```
+    $ sudo sysrc redis_enable=yes
+
 ![Установка Redis®](img/3.jpg "Установка Redis®")
 
 ### Шаг 5: Проверка работы Redis®
 
 После запуска Redis® проверьте его состояние с помощью команды:
 
-```sh
-$ sudo service redis status
-```
+    $ sudo service redis status
+
 
 Вы должны увидеть сообщение, указывающее, что Redis® работает.
 
