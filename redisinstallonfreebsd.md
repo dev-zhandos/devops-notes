@@ -20,7 +20,8 @@
     $ sudo pkg update
     $ sudo pkg upgrade
 
-![Обновление пакетов системы](img/1.jpg "Обновление пакетов системы1")
+![Обновление пакетов системы](https://raw.githubusercontent.com/dev-zhandos/devops-notes/main/img/1.jpg)
+
 Эти команды обновят список пакетов и установят последние версии всех пакетов.
 
 ### Шаг 2: Установка Redis®
@@ -31,7 +32,7 @@
 
 Подтвердите установку, введя `y` при появлении запроса и нажмите клавишу :key_enter:.
 
-![Установка Redis®](img/2.jpg "Установка Redis®")
+![Установка Redis®](https://raw.githubusercontent.com/dev-zhandos/devops-notes/main/img/2.jpg)
 
 ### Шаг 3: Настройка Redis®
 
@@ -60,7 +61,7 @@
 
     $ sudo sysrc redis_enable=yes
 
-![Установка Redis®](img/3.jpg "Установка Redis®")
+![Запуск и автозагрузка Redis®](https://raw.githubusercontent.com/dev-zhandos/devops-notes/main/img/3.jpg)
 
 ### Шаг 5: Проверка работы Redis®
 
@@ -71,7 +72,7 @@
 
 Вы должны увидеть сообщение, указывающее, что Redis® работает.
 
-![Установка Redis®](img/3.jpg "Установка Redis®")
+![Проверка работы Redis®](https://raw.githubusercontent.com/dev-zhandos/devops-notes/main/img/4.jpg)
 
 ## Следующие шаги и ссылки
 
